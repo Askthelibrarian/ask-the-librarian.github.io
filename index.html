@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ask the Librarian</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ffb347;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        footer {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        h1, h2 {
+            color: #ff6f61;
+        }
+
+        .blog {
+            background-color: #ffe4b5;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #ff4b3a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ask the Librarian</h1>
+        <p>Welcome to my personal webpage!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I’m Ask the Librarian, passionate about books, knowledge, and helping people discover the information they need. Whether it’s managing collections or finding rare resources, I’m here to assist you!</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <p>Check out some of my projects below:</p>
+        <ul>
+            <li>Library Management Systems Development</li>
+            <li>Curated Rare Book Collections</li>
+            <li>Organized National Reading Campaigns</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog">
+            <h3>5 Tips for Efficient Library Management</h3>
+            <p>Managing a library can be challenging. Here are my top tips for making it smoother...</p>
+        </div>
+        <div class="blog">
+            <h3>The Evolution of Digital Libraries</h3>
+            <p>As technology evolves, so do libraries. Let’s explore the rise of digital resources...</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ask the Librarian</p>
+    </footer>
+</body>
+</html>
